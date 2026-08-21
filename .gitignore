@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+.playwright-browsers/
+.profile/
+artifacts/
+
+data/*.json
+!data/.gitkeep
+
+*.tmp
+*.log
+

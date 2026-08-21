@@ -1,0 +1,17 @@
+{
+  "name": "shixiseng-batch-message",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Preview and batch-send a fixed Shixiseng employer-side recruitment message with deduplication.",
+  "scripts": {
+    "open": "node scripts/shixiseng-batch-message.mjs open",
+    "inspect": "node scripts/shixiseng-batch-message.mjs inspect",
+    "dry-run": "node scripts/shixiseng-batch-message.mjs dry-run",
+    "send": "node scripts/shixiseng-batch-message.mjs send",
+    "resume": "node scripts/shixiseng-batch-message.mjs resume"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  }
+}
